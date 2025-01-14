@@ -1,0 +1,31 @@
+---
+title: "Reproducible document"
+author: "Nemanja Stanojevic"
+format: html
+---
+## Basics of R
+
+```{r}
+1 + 1
+```
+
+## Setup code chunk
+
+```{r setup}
+library(tidyverse)
+```
+## About me
+-  Nemanja
+-  Stanojevic
+-  Roskilde University
+I am from *Serbia*, I am a **Medical doctor**
+
+## Simple code
+```{r}
+3 * 3
+```
+## Testing for Git
+The weather is awful
+  
+
+
