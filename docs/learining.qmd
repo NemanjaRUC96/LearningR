@@ -159,7 +159,19 @@ select(post_meal_data, ends_with("DXA"))
 ```{r}
 select(post_meal_data, contains("0"))
 ```
-```{r}
+## Renaming specific columns
 
+
+```{r}
+small_post_meal_data |> 
+  rename(auc_glucose = auc_pg)
+
+small_post_meal_data |>
+  rename(auc_glucose = auc_pg,
+         auc_insulin = auc_ins)
 ```
 
+
+
+
+```{r}
