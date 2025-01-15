@@ -9,11 +9,8 @@ format: html
 1 + 1
 ```
 
-## Setup code chunk
 
-```{r setup}
-library(tidyverse)
-```
+
 ## About me
 -  Nemanja
 -  Stanojevic
@@ -28,6 +25,8 @@ I am from *Serbia*, I am a **Medical doctor**
 The weather is awful
   
 ```{r setup}
+#| message: false 
+#| warning: false
 library(tidyverse)
 post_meal_data <- read_csv2(
   here::here("data/post-meal-insulin.csv")
